@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../App.css";
-import profilePhoto from "../assets/nelong.jpg";
+import profilePhoto from "../assets/nayla.jpg";
 import { useState } from "react";
 
 function Home() {
