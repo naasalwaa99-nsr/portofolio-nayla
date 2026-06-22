@@ -42,8 +42,7 @@ function Experience() {
             <ul className="experience-list">
               <li>Melakukan software testing pada aplikasi web</li>
               <li>Membuat dokumentasi sistem dan test case</li>
-              <li>Membuat desain antarmuka (UI) menggunakan Figma</li>
-              <li>Berkolaborasi dalam pengembangan website</li>
+              <li>Membuat desain (UI) menggunakan Figma</li>
             </ul>
 
           </div>

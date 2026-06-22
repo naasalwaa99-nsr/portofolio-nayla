@@ -14,7 +14,7 @@ function Contact() {
         </span>
 
         <h1 className="about-title">
-          Let's Connect 💜
+          Let's Connect
         </h1>
 
         <p className="contact-desc">
