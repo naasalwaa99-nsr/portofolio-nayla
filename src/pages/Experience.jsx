@@ -8,33 +8,48 @@ function Experience() {
       <Navbar />
 
       <section className="section page">
-        <h2>Experience</h2>
 
-        <div className="timeline">
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
+        <span className="section-tag">
+          EXPERIENCE
+        </span>
 
-            <div className="experience-card">
-  
+        <h1 className="about-title">
+          My Journey 🚀
+        </h1>
 
-  <h3>Praktik Kerja Lapangan (PKL)</h3>
+        <div className="experience-showcase">
 
-  <h4>
-    PT Medianusa Permana (Permana Solutions)
-  </h4>
+          <div className="experience-card">
 
-  <p className="date">
-    Mei 2026 – Maret 2027
-  </p>
+            <div className="experience-header">
+              <span className="experience-badge">
+                PKL
+              </span>
 
-  <p>
-    • Melakukan software testing pada aplikasi web<br/>
-    • Membuat dokumentasi sistem dan test case<br/>
-    • Membuat desain (UI) menggunakan Figma<br/>
-  </p>
-</div>
+              <span className="experience-date">
+                Mei 2026 – Maret 2027
+              </span>
+            </div>
+
+            <h3>
+              Praktik Kerja Lapangan
+            </h3>
+
+            <h4>
+              PT Medianusa Permana (Permana Solutions)
+            </h4>
+
+            <ul className="experience-list">
+              <li>Melakukan software testing pada aplikasi web</li>
+              <li>Membuat dokumentasi sistem dan test case</li>
+              <li>Membuat desain antarmuka (UI) menggunakan Figma</li>
+              <li>Berkolaborasi dalam pengembangan website</li>
+            </ul>
+
           </div>
+
         </div>
+
       </section>
 
       <Footer />

@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "../App.css";
+
 function Projects() {
   return (
     <>
@@ -9,31 +10,71 @@ function Projects() {
       <section className="section page">
         <h2>Projects</h2>
 
-        <div className="project-card">
-          <h3>Website Manajemen UKS</h3>
+        <div className="projects-showcase">
 
-          <p>
-            Website untuk pengelolaan data kesehatan sekolah,
-            stok obat dan rekam medis siswa menggunakan database.
-          </p>
-        </div>
+          <div className="project-showcase-card">
+            <div className="project-preview">
+              🌐
+            </div>
 
-        <div className="project-card">
-          <h3>Proyek Jaringan Komputer Sekolah</h3>
+            <div className="project-info">
+              <span className="project-tag">
+                React • CSS • Vite
+              </span>
 
-          <p>
-            Merancang topologi jaringan LAN, konfigurasi IP Address
-            dan simulasi jaringan menggunakan Cisco Packet Tracer.
-          </p>
-        </div>
+              <h3>Portfolio Website</h3>
 
-        <div className="project-card">
-          <h3>Pengembangan Web melalui VirtualBox</h3>
+              <p>
+                Website portofolio pribadi dengan desain modern
+                dan responsif menggunakan React JS.
+              </p>
 
-          <p>
-            Mengembangkan aplikasi berbasis web menggunakan
-            HTML, CSS dan MariaDB.
-          </p>
+              <button>Lihat Project</button>
+            </div>
+          </div>
+
+          <div className="project-showcase-card">
+            <div className="project-preview">
+              🎨
+            </div>
+
+            <div className="project-info">
+              <span className="project-tag">
+                Figma • UI/UX
+              </span>
+
+              <h3>UI Design Project</h3>
+
+              <p>
+                Mendesain wireframe, prototype, dan tampilan
+                aplikasi menggunakan Figma.
+              </p>
+
+              <button>Lihat Design</button>
+            </div>
+          </div>
+
+          <div className="project-showcase-card">
+            <div className="project-preview">
+              🖥️
+            </div>
+
+            <div className="project-info">
+              <span className="project-tag">
+                Cisco • Networking
+              </span>
+
+              <h3>Network Simulation</h3>
+
+              <p>
+                Simulasi topologi jaringan komputer menggunakan
+                Cisco Packet Tracer.
+              </p>
+
+              <button>Lihat Detail</button>
+            </div>
+          </div>
+
         </div>
       </section>
 
