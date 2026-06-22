@@ -14,9 +14,9 @@ function About() {
         </span>
 
         <h1 className="about-title">
-          Get To Know Me ✨
+          Get To Know Me 
+         <span className="emoji"> ✨ </span> 
         </h1>
-
         <div className="about-glass-card">
           <p>
             Saya memiliki minat pada pengembangan website,

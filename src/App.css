@@ -1044,5 +1044,10 @@ nav a:hover{
   .about-title{
     font-size:3rem;
   }
+}
 
+.emoji{
+  background:none !important;
+  -webkit-text-fill-color:initial !important;
+  color:#ff5da2;
 }

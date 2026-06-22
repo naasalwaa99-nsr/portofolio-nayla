@@ -14,8 +14,9 @@ function Experience() {
         </span>
 
         <h1 className="about-title">
-          My Journey 🚀
-        </h1>
+  My Journey
+  <span className="emoji"> 🚀</span>
+</h1>
 
         <div className="experience-showcase">
 
@@ -35,14 +36,21 @@ function Experience() {
               Praktik Kerja Lapangan
             </h3>
 
-            <h4>
-              PT Medianusa Permana (Permana Solutions)
-            </h4>
+            <div className="info-box">
+  <a
+    href="https://permanasolutions.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    PT Medianusa Permana (Permana Solutions)
+  </a>
+</div>
 
             <ul className="experience-list">
               <li>Melakukan software testing pada aplikasi web</li>
               <li>Membuat dokumentasi sistem dan test case</li>
               <li>Membuat desain (UI) menggunakan Figma</li>
+
             </ul>
 
           </div>
