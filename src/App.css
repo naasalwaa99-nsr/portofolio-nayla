@@ -26,54 +26,51 @@ body{
   color:var(--text);
 }
 
-/* NAVBAR */
-
 .navbar{
   max-width:1300px;
   margin:30px auto;
-  padding:0 40px;
+  padding:0 20px;
 
   display:flex;
   justify-content:space-between;
   align-items:center;
-}
 
-.logo{
-  font-size:2rem;
-  font-weight:800;
-
-  background:linear-gradient(
-    135deg,
-    #ff8fcf,
-    #8b5cf6
-  );
-
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+  flex-wrap:wrap;
 }
 
 nav{
   display:flex;
-  gap:40px;
+  gap:25px;
+  flex-wrap:wrap;
+  justify-content:center;
 
   background:rgba(255,255,255,.7);
   backdrop-filter:blur(15px);
 
-  padding:20px 40px;
+  padding:15px 25px;
   border-radius:50px;
-
-  border:1px solid rgba(255,255,255,.8);
 }
 
-nav a{
-  text-decoration:none;
-  color:var(--text);
-  font-weight:600;
-  transition:.3s;
-}
+@media (max-width:768px){
 
-nav a:hover{
-  color:var(--purple-dark);
+  .navbar{
+    flex-direction:column;
+    gap:15px;
+  }
+
+  .logo{
+    font-size:1.8rem;
+  }
+
+  nav{
+    width:100%;
+    gap:15px;
+    padding:15px;
+  }
+
+  nav a{
+    font-size:.95rem;
+  }
 }
 
 /* HERO */
@@ -1051,3 +1048,4 @@ nav a:hover{
   -webkit-text-fill-color:initial !important;
   color:#ff5da2;
 }
+
