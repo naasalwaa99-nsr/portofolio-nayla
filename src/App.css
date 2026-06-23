@@ -26,10 +26,12 @@ body{
   color:var(--text);
 }
 
+/* NAVBAR */
+
 .navbar{
   max-width:1300px;
   margin:30px auto;
-  padding:0 20px;
+  padding:0 30px;
 
   display:flex;
   justify-content:space-between;
@@ -38,19 +40,43 @@ body{
   flex-wrap:wrap;
 }
 
+.logo{
+  font-size:2rem;
+  font-weight:800;
+
+  background:linear-gradient(
+    135deg,
+    #ff8fcf,
+    #8b5cf6
+  );
+
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
 nav{
   display:flex;
-  gap:25px;
-  flex-wrap:wrap;
-  justify-content:center;
+  gap:30px;
 
   background:rgba(255,255,255,.7);
   backdrop-filter:blur(15px);
 
-  padding:15px 25px;
+  padding:15px 40px;
   border-radius:50px;
+
+  border:1px solid rgba(255,255,255,.8);
 }
 
+nav a{
+  text-decoration:none;
+  color:var(--text);
+  font-weight:600;
+  transition:.3s;
+}
+
+nav a:hover{
+  color:var(--purple-dark);
+}
 @media (max-width:768px){
 
   .navbar{
@@ -72,6 +98,7 @@ nav{
     font-size:.95rem;
   }
 }
+
 
 /* HERO */
 
